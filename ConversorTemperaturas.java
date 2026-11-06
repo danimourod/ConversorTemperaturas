@@ -1,4 +1,6 @@
 public class ConversorTemperaturas {
 
-    // Conversion pendiente
+    public static double celsiusAFahrenheit(double celsius) {
+        return celsius * 9.0 / 5.0 + 32;
+    }
 }
